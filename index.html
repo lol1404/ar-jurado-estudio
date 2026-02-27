@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A.R. Jurado - Estudio de Fotografía en Sevilla</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="#"><img src="assets/LOGO.png" alt="A.R. Jurado Logo"></a>
+                <span class="studio-name">A.R. Jurado Estudio</span>
+            </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#app-movil">App Móvil</a></li>
+                <li><a href="#testimonios">Testimonios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="inicio">
+            <div class="container">
+                <h1>Fotografía para momentos únicos.</h1>
+                <p>En A.R. Jurado, creemos en el poder de una imagen para contar una historia. Nuestro estudio en Sevilla es un espacio donde la creatividad, la pasión y la confianza se unen para crear recuerdos que durarán toda la vida. Acompañamos a tu familia en cada paso, desde la dulce espera de un bebé hasta las risas compartidas en una sesión familiar.</p>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <div class="container">
+                <h2>Servicios que enamoran</h2>
+                <div class="service-grid">
+                    <div class="service-item">
+                        <h3>Fotografía de Bebés y Newborn</h3>
+                        <p>Sesiones delicadas y seguras para capturar la magia de los primeros días de vida. Cuidamos cada detalle para que tu bebé sea el protagonista.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Seguimiento Mensual</h3>
+                        <p>Observa cómo crece tu pequeño mes a mes con sesiones creativas que reflejan su personalidad única en cada etapa.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Embarazo y Maternidad</h3>
+                        <p>Celebramos la belleza de la maternidad con sesiones elegantes y emotivas que te harán sentir radiante.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Fotografía Familiar</h3>
+                        <p>Creamos retratos familiares llenos de vida y naturalidad, capturando la conexión y el amor que os une.</p>
+                    </div>
+                    <div class="service-item">
+                        <h3>Navidad y Momentos Especiales</h3>
+                        <p>Inmortalizamos las celebraciones más importantes con escenarios únicos y una atmósfera mágica.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="app-movil">
+            <div class="container">
+                <h2>Descarga Nuestra App</h2>
+                <p>Lleva tu experiencia con nosotros al siguiente nivel. Reserva tus sesiones, accede a contenido exclusivo y recibe notificaciones sobre nuestras promociones especiales directamente en tu móvil.</p>
+                <a href="https://play.google.com/store/apps/details?id=com.ordenygestion.c480&hl=es" target="_blank" class="btn">
+                    Disponible en Google Play
+                </a>
+            </div>
+        </section>
+
+        <section id="testimonios">
+            <div class="container">
+                <h2>Historias de familias felices</h2>
+                <div class="testimonial-grid">
+                    <div class="testimonial-item">
+                        <p>"Alminda es una profesional increíble. Su paciencia y cariño con nuestro bebé hicieron que la sesión fuera una experiencia maravillosa. ¡El resultado es un tesoro!"</p>
+                        <span>- Familia García</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"Cada foto cuenta una historia. Los escenarios son de ensueño y el trato es inmejorable. Repetimos cada año y siempre nos sorprende."</p>
+                        <span>- Familia Pérez</span>
+                    </div>
+                    <div class="testimonial-item">
+                        <p>"Confianza, profesionalidad y un talento único para capturar la esencia de nuestra familia. Gracias por crear recuerdos tan especiales."</p>
+                        <span>- Familia Rodríguez</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria">
+            <div class="container">
+                <h2>Galería de momentos inolvidables</h2>
+                <div class="gallery-grid">
+                    <!-- Las imágenes se añadirán aquí -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contacto">
+            <div class="container">
+                <h2>Reserva tu sesión</h2>
+                <p>¿Listos para crear recuerdos juntos? Nos encantaría formar parte de vuestra historia. Contáctanos y reserva una experiencia fotográfica única y memorable.</p>
+                <div class="contact-info">
+                    <p><strong>Dirección:</strong> C. Azofairon, 79, 41702 Dos Hermanas, Sevilla</p>
+                    <p><strong>Teléfono:</strong> 635 68 35 81</p>
+                </div>
+                <div id="map"></div>
+                <a href="#" class="btn">Reservar ahora</a>
+                <a href="https://www.instagram.com/a.r.jurado?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" class="btn instagram">Ver en Instagram</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 A.R. Jurado | Fotografía de Confianza en Sevilla</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+    <!-- image modal -->
+    <div id="image-modal" class="image-modal">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="modal-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
