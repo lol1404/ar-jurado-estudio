@@ -278,6 +278,7 @@ h2 {
 
 .gallery-item img {
     width: 100%;
+    /* height of gallery thumbnails – change this value to adjust image height */
     height: 200px;
     object-fit: cover;
     border-radius: 5px;

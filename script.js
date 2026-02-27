@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'assets/Captura de pantalla 2026-02-27 195550.png',
         'assets/Captura de pantalla 2026-02-27 195603.png',
         'assets/Captura de pantalla 2026-02-27 195611.png'
+        // add more image paths here, e.g. 'assets/newphoto.jpg'
     ];
 
     imageUrls.forEach(url => {
